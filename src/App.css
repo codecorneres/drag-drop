@@ -1,0 +1,127 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+/* .showme{ 
+  display: none;
+  position: absolute;
+  right: 40px;
+}
+.canvas .drag-item .m-0:hover .showme{
+  display : block;
+}
+.main-canvas .canvas .drag-item:hover .ok{
+  display : none;
+} */
+/* .setting{
+  display: none;
+} */
+/*------Sample.js------*/
+
+.page-builder {
+  display: flex;
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+.page-builder{
+  margin-top: 20px;
+}
+.listrow {
+  border: 1px solid #0f1010;
+}
+.draggable {
+  border: 1px solid #ddd;
+  padding: 6px 14px;
+  margin: 8px !important;
+}
+.md3{
+  border: 1px solid #0f1010;
+  padding: 10px;
+  height: 100%;
+  /* overflow: scroll; */
+}
+.listrow, .md3{
+  max-height: 90vh;
+  overflow-y: auto;
+}
+.Droppable{
+  max-height: 90vh;
+  position: relative;
+  overflow-y: auto;
+  border: 2px solid #0f1010;
+  height: 100%;
+  padding: 20px 10px;
+  /* overflow: scroll; */
+}
+.deletebtn{
+  float: right;
+}
+.Droppable .form-group{
+  padding: 6px 5px;
+}
+.Droppable .form-group:hover{
+  box-shadow: 0 0 4px 0px #b1aaaa;
+}
+.Droppable .form-group:focus{
+  border: 1px solid #000 !important;
+}
+.text-align{
+  text-align: center;
+  padding: 30px;
+}
+.dark{
+  background: #353535;
+  height: 100%;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+}
+.previewdiv{
+  position: fixed !important;
+  right: 25px !important;
+}
+.prevbtn{
+  margin-right: 15px;
+}
+.preview{
+  color: rgb(255, 255, 255) !important;
+}
+.preview:hover {
+  text-decoration: none !important;
+}
+.fields{
+  margin: 20px 0px;
+}
+.preveiwrow{
+  box-shadow: 0px 1px 1px 1px #cac0c0;
+}
